@@ -1,0 +1,16 @@
+<h1>Admin Dashboard</h1>
+
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge"><%= @product_count %></span>
+    <%= link_to 'Total Products:',  [:admin, :products] %>
+  </li>
+  <li class="list-group-item">
+    <span class="badge"><%= @category_count %></span>
+    <%= link_to 'Total Categories',  [:admin, :categories] %>
+  </li>
+</ul>
+
+
+
+
